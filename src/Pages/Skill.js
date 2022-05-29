@@ -30,7 +30,7 @@ const Skill = () => {
             <div className="form-control w-full max-w-xs">
                 <label className="label">
                     <span className="label-text text-white font-bold text-lg">Reactjs</span>
-                    <span className=" text-white font-bold text-lg">70</span>
+                    <span className="text-white font-bold text-lg">70</span>
                 </label>
                 <input type="range" min="0" max="100" value="70" className="range range-xs range-primary" readOnly/>
             </div>
