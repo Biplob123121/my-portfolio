@@ -22,7 +22,9 @@ const Home = () => {
                     {/* <!-- Sidebar content here --> */}
                     <img src={myPic} className='w-full' alt="" />
                     <li className='pt-4'><Link to='/'>HOME</Link></li>
+                    <li><Link to='/about'>ABOUT ME</Link></li>
                     <li><Link to='/skill'>MY SKILLS</Link></li>
+                    <li><Link to='/projects'>MY PROJECTS</Link></li>
                     <li><Link to='/education'>EDUCATION</Link></li>
                 </ul>
 
