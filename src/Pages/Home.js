@@ -18,14 +18,17 @@ const Home = () => {
             </div>
             <div className="drawer-side bg-current">
                 <label htmlFor="my-drawer-2" className="drawer-overlay"></label>
-                <ul className="menu p-4 overflow-y-auto w-48 font-bold text-white">
+                
+                <ul className="menu overflow-y-auto w-48 font-bold text-white">
                     {/* <!-- Sidebar content here --> */}
                     <img src={myPic} className='w-full' alt="" />
-                    <li className='pt-4'><Link to='/'>HOME</Link></li>
-                    <li><Link to='/about'>ABOUT ME</Link></li>
-                    <li><Link to='/skill'>MY SKILLS</Link></li>
-                    <li><Link to='/projects'>MY PROJECTS</Link></li>
-                    <li><Link to='/education'>EDUCATION</Link></li>
+                    <li className='px-4 pt-4'><Link to='/'>HOME</Link></li>
+                    <li className='px-4'><Link to='/about'>ABOUT ME</Link></li>
+                    <li className='px-4'><Link to='/skill'>MY SKILLS</Link></li>
+                    <li className='px-4'><Link to='/projects'>MY PROJECTS</Link></li>
+                    <li className='px-4'><Link to='/education'>EDUCATION</Link></li>
+                    <li className='px-4'><Link to='/blog'>BLOG</Link></li>
+                    <li className='px-4'><Link to='/contact'>CONTACT</Link></li>
                 </ul>
 
             </div>
