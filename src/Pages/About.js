@@ -1,8 +1,12 @@
 import React from 'react';
+import './Animation.css';
+import dev from '../images/dev.png';
+import design from '../images/design.png';
+import responsive from '../images/responsive.png';
 
 const About = () => {
     return (
-        <div className='bg-secondary lg:h-full px-12'>
+        <div className='bg-secondary px-12 page-animation pb-12'>
             <h2 className='text-4xl text-primary font-bold pt-12 mb-2'>About Me :</h2>
             <hr />
             <div className='grid lg:grid-cols-2 gap-8'>
@@ -26,8 +30,36 @@ const About = () => {
                 </div>
             </div>
             <h2 className='text-4xl text-primary font-bold pt-12'>SERVICES</h2>
-            
-            <h3 className='text-2xl font-bold text-white pb-16'>Web Development</h3>
+            <hr />
+            <div className='grid lg:grid-cols-3 gap-4 mt-6'>
+                <div className="card text-white bg-[#999997] shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src={dev} alt="" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Web Development</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card text-white bg-[#999997] shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src={design} alt="" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Web Design</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+                <div className="card text-white bg-[#999997] shadow-xl">
+                    <figure className="px-10 pt-10">
+                        <img src={responsive} alt="" className="rounded-xl" />
+                    </figure>
+                    <div className="card-body items-center text-center">
+                        <h2 className="card-title">Responsive Design</h2>
+                        <p>If a dog chews shoes whose shoes does he choose?</p>
+                    </div>
+                </div>
+            </div>
         </div>
     );
 };

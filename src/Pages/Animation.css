@@ -1,0 +1,15 @@
+.page-animation {
+    animation: pageAnimation 1s;
+}
+
+@keyframes pageAnimation {
+    from {
+        opacity: 0;
+        transform: translate(-500px, -500px);
+    }
+
+    to {
+        opacity: 1;
+        transform: translateX(0px, 0px);
+    }
+}

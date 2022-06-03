@@ -1,9 +1,10 @@
 import React from 'react';
 import './Skills.css';
+import './Animation.css';
 
 const Skill = () => {
     return (
-        <div className='bg-secondary lg:h-screen px-12'>
+        <div className='bg-secondary lg:h-screen px-12 page-animation'>
             <h2 className='text-4xl text-primary font-bold pt-12 mb-2'>My Skills </h2>
             <hr />
 
@@ -49,6 +50,14 @@ const Skill = () => {
                             <span></span>
                         </div>
                     </div>
+                    <div className="bar">
+                        <div className="info">
+                            <span className='text-white'>Github</span>
+                        </div>
+                        <div className="progress-line github">
+                            <span></span>
+                        </div>
+                    </div>
                 </div>
                 <div className='skill-bars lg:w-3/4 lg:pt-12'>
                     <div className="bar">
@@ -88,6 +97,14 @@ const Skill = () => {
                             <span className='text-white'>MongoDB</span>
                         </div>
                         <div className="progress-line mongo">
+                            <span></span>
+                        </div>
+                    </div>
+                    <div className="bar">
+                        <div className="info">
+                            <span className='text-white'>Heroku</span>
+                        </div>
+                        <div className="progress-line heroku">
                             <span></span>
                         </div>
                     </div>

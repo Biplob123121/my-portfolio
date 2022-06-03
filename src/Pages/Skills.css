@@ -114,6 +114,15 @@ body {
 .bar .progress-line.mongo span {
     width: 35%;
 }
+.bar .progress-line.mongo span {
+    width: 35%;
+}
+.bar .progress-line.github span {
+    width: 50%;
+}
+.bar .progress-line.heroku span {
+    width: 20%;
+}
 
 .progress-line span::before {
     position: absolute;
@@ -183,4 +192,7 @@ body {
 }
 .progress-line.mongo span::after {
     content: "35%";
+}
+.progress-line.github span::after {
+    content: "50%";
 }
